@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		89AE61E3269CD8260040760E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE61E2269CD8260040760E /* AppDelegate.swift */; };
+		89AE61E6269CD8260040760E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AE61E4269CD8260040760E /* Main.storyboard */; };
+		89AE61E8269CD8260040760E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE61E7269CD8260040760E /* ViewController.swift */; };
+		89AE61EA269CD8270040760E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AE61E9269CD8270040760E /* Assets.xcassets */; };
+		89AE61F1269CD8270040760E /* Tenhou score pane Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89AE61F0269CD8270040760E /* Tenhou score pane Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		89AE61F6269CD8270040760E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AE61F5269CD8270040760E /* Cocoa.framework */; };
+		89AE61F9269CD8270040760E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE61F8269CD8270040760E /* SafariWebExtensionHandler.swift */; };
+		89AE6215269CD8280040760E /* Tenhou score pane in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6206269CD8280040760E /* Tenhou score pane */; };
+		89AE6216269CD8280040760E /* Annotation 2020-09-07 190859.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6207269CD8280040760E /* Annotation 2020-09-07 190859.png */; };
+		89AE6217269CD8280040760E /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6208269CD8280040760E /* content.css */; };
+		89AE6218269CD8280040760E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6209269CD8280040760E /* LICENSE */; };
+		89AE6219269CD8280040760E /* chart.js in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620A269CD8280040760E /* chart.js */; };
+		89AE621A269CD8280040760E /* Annotation 2020-09-07 120320.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620B269CD8280040760E /* Annotation 2020-09-07 120320.png */; };
+		89AE621B269CD8280040760E /* 4-1.1.7.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620C269CD8280040760E /* 4-1.1.7.png */; };
+		89AE621C269CD8280040760E /* chart1.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620D269CD8280040760E /* chart1.png */; };
+		89AE621D269CD8280040760E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620E269CD8280040760E /* README.md */; };
+		89AE621E269CD8280040760E /* chr3.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE620F269CD8280040760E /* chr3.png */; };
+		89AE621F269CD8280040760E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6210269CD8280040760E /* icons */; };
+		89AE6220269CD8280040760E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6211269CD8280040760E /* manifest.json */; };
+		89AE6221269CD8280040760E /* chr4.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6212269CD8280040760E /* chr4.png */; };
+		89AE6222269CD8280040760E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6213269CD8280040760E /* content.js */; };
+		89AE6223269CD8280040760E /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6214269CD8280040760E /* jquery.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89AE61F2269CD8270040760E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89AE61D6269CD8260040760E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89AE61EF269CD8270040760E;
+			remoteInfo = "Tenhou score pane Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		89AE6201269CD8270040760E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				89AE61F1269CD8270040760E /* Tenhou score pane Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		89AE61DE269CD8260040760E /* Tenhou score pane.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tenhou score pane.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE61E1269CD8260040760E /* Tenhou_score_pane.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tenhou_score_pane.entitlements; sourceTree = "<group>"; };
+		89AE61E2269CD8260040760E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		89AE61E5269CD8260040760E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89AE61E7269CD8260040760E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89AE61E9269CD8270040760E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89AE61EB269CD8270040760E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AE61F0269CD8270040760E /* Tenhou score pane Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Tenhou score pane Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89AE61F5269CD8270040760E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		89AE61F8269CD8270040760E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		89AE61FA269CD8270040760E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AE61FB269CD8270040760E /* Tenhou_score_pane_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Tenhou_score_pane_Extension.entitlements; sourceTree = "<group>"; };
+		89AE6206269CD8280040760E /* Tenhou score pane */ = {isa = PBXFileReference; lastKnownFileType = text; path = "Tenhou score pane"; sourceTree = SOURCE_ROOT; };
+		89AE6207269CD8280040760E /* Annotation 2020-09-07 190859.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Annotation 2020-09-07 190859.png"; path = "../../Annotation 2020-09-07 190859.png"; sourceTree = "<group>"; };
+		89AE6208269CD8280040760E /* content.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = content.css; path = ../../content.css; sourceTree = "<group>"; };
+		89AE6209269CD8280040760E /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE; path = ../../LICENSE; sourceTree = "<group>"; };
+		89AE620A269CD8280040760E /* chart.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = chart.js; path = ../../chart.js; sourceTree = "<group>"; };
+		89AE620B269CD8280040760E /* Annotation 2020-09-07 120320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Annotation 2020-09-07 120320.png"; path = "../../Annotation 2020-09-07 120320.png"; sourceTree = "<group>"; };
+		89AE620C269CD8280040760E /* 4-1.1.7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4-1.1.7.png"; path = "../../4-1.1.7.png"; sourceTree = "<group>"; };
+		89AE620D269CD8280040760E /* chart1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chart1.png; path = ../../chart1.png; sourceTree = "<group>"; };
+		89AE620E269CD8280040760E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		89AE620F269CD8280040760E /* chr3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chr3.png; path = ../../chr3.png; sourceTree = "<group>"; };
+		89AE6210269CD8280040760E /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = ../../icons; sourceTree = "<group>"; };
+		89AE6211269CD8280040760E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = ../../manifest.json; sourceTree = "<group>"; };
+		89AE6212269CD8280040760E /* chr4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chr4.png; path = ../../chr4.png; sourceTree = "<group>"; };
+		89AE6213269CD8280040760E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = ../../content.js; sourceTree = "<group>"; };
+		89AE6214269CD8280040760E /* jquery.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = jquery.js; path = ../../jquery.js; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89AE61DB269CD8260040760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE61ED269CD8270040760E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE61F6269CD8270040760E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89AE61D5269CD8260040760E = {
+			isa = PBXGroup;
+			children = (
+				89AE61E0269CD8260040760E /* Tenhou score pane */,
+				89AE61F7269CD8270040760E /* Tenhou score pane Extension */,
+				89AE61F4269CD8270040760E /* Frameworks */,
+				89AE61DF269CD8260040760E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89AE61DF269CD8260040760E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89AE61DE269CD8260040760E /* Tenhou score pane.app */,
+				89AE61F0269CD8270040760E /* Tenhou score pane Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89AE61E0269CD8260040760E /* Tenhou score pane */ = {
+			isa = PBXGroup;
+			children = (
+				89AE61E1269CD8260040760E /* Tenhou_score_pane.entitlements */,
+				89AE61E2269CD8260040760E /* AppDelegate.swift */,
+				89AE61E4269CD8260040760E /* Main.storyboard */,
+				89AE61E7269CD8260040760E /* ViewController.swift */,
+				89AE61E9269CD8270040760E /* Assets.xcassets */,
+				89AE61EB269CD8270040760E /* Info.plist */,
+			);
+			path = "Tenhou score pane";
+			sourceTree = "<group>";
+		};
+		89AE61F4269CD8270040760E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				89AE61F5269CD8270040760E /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		89AE61F7269CD8270040760E /* Tenhou score pane Extension */ = {
+			isa = PBXGroup;
+			children = (
+				89AE6205269CD8280040760E /* Resources */,
+				89AE61F8269CD8270040760E /* SafariWebExtensionHandler.swift */,
+				89AE61FA269CD8270040760E /* Info.plist */,
+				89AE61FB269CD8270040760E /* Tenhou_score_pane_Extension.entitlements */,
+			);
+			path = "Tenhou score pane Extension";
+			sourceTree = "<group>";
+		};
+		89AE6205269CD8280040760E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				89AE6206269CD8280040760E /* Tenhou score pane */,
+				89AE6207269CD8280040760E /* Annotation 2020-09-07 190859.png */,
+				89AE6208269CD8280040760E /* content.css */,
+				89AE6209269CD8280040760E /* LICENSE */,
+				89AE620A269CD8280040760E /* chart.js */,
+				89AE620B269CD8280040760E /* Annotation 2020-09-07 120320.png */,
+				89AE620C269CD8280040760E /* 4-1.1.7.png */,
+				89AE620D269CD8280040760E /* chart1.png */,
+				89AE620E269CD8280040760E /* README.md */,
+				89AE620F269CD8280040760E /* chr3.png */,
+				89AE6210269CD8280040760E /* icons */,
+				89AE6211269CD8280040760E /* manifest.json */,
+				89AE6212269CD8280040760E /* chr4.png */,
+				89AE6213269CD8280040760E /* content.js */,
+				89AE6214269CD8280040760E /* jquery.js */,
+			);
+			name = Resources;
+			path = "Tenhou score pane Extension";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89AE61DD269CD8260040760E /* Tenhou score pane */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AE6202269CD8270040760E /* Build configuration list for PBXNativeTarget "Tenhou score pane" */;
+			buildPhases = (
+				89AE61DA269CD8260040760E /* Sources */,
+				89AE61DB269CD8260040760E /* Frameworks */,
+				89AE61DC269CD8260040760E /* Resources */,
+				89AE6201269CD8270040760E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89AE61F3269CD8270040760E /* PBXTargetDependency */,
+			);
+			name = "Tenhou score pane";
+			productName = "Tenhou score pane";
+			productReference = 89AE61DE269CD8260040760E /* Tenhou score pane.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89AE61EF269CD8270040760E /* Tenhou score pane Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89AE61FE269CD8270040760E /* Build configuration list for PBXNativeTarget "Tenhou score pane Extension" */;
+			buildPhases = (
+				89AE61EC269CD8270040760E /* Sources */,
+				89AE61ED269CD8270040760E /* Frameworks */,
+				89AE61EE269CD8270040760E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tenhou score pane Extension";
+			productName = "Tenhou score pane Extension";
+			productReference = 89AE61F0269CD8270040760E /* Tenhou score pane Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89AE61D6269CD8260040760E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					89AE61DD269CD8260040760E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+					89AE61EF269CD8270040760E = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 89AE61D9269CD8260040760E /* Build configuration list for PBXProject "Tenhou score pane" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89AE61D5269CD8260040760E;
+			productRefGroup = 89AE61DF269CD8260040760E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89AE61DD269CD8260040760E /* Tenhou score pane */,
+				89AE61EF269CD8270040760E /* Tenhou score pane Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89AE61DC269CD8260040760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE61EA269CD8270040760E /* Assets.xcassets in Resources */,
+				89AE61E6269CD8260040760E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE61EE269CD8270040760E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE6223269CD8280040760E /* jquery.js in Resources */,
+				89AE621F269CD8280040760E /* icons in Resources */,
+				89AE621C269CD8280040760E /* chart1.png in Resources */,
+				89AE621E269CD8280040760E /* chr3.png in Resources */,
+				89AE6217269CD8280040760E /* content.css in Resources */,
+				89AE6220269CD8280040760E /* manifest.json in Resources */,
+				89AE6219269CD8280040760E /* chart.js in Resources */,
+				89AE6216269CD8280040760E /* Annotation 2020-09-07 190859.png in Resources */,
+				89AE6218269CD8280040760E /* LICENSE in Resources */,
+				89AE621B269CD8280040760E /* 4-1.1.7.png in Resources */,
+				89AE621D269CD8280040760E /* README.md in Resources */,
+				89AE621A269CD8280040760E /* Annotation 2020-09-07 120320.png in Resources */,
+				89AE6221269CD8280040760E /* chr4.png in Resources */,
+				89AE6222269CD8280040760E /* content.js in Resources */,
+				89AE6215269CD8280040760E /* Tenhou score pane in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89AE61DA269CD8260040760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE61E8269CD8260040760E /* ViewController.swift in Sources */,
+				89AE61E3269CD8260040760E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89AE61EC269CD8270040760E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89AE61F9269CD8270040760E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89AE61F3269CD8270040760E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89AE61EF269CD8270040760E /* Tenhou score pane Extension */;
+			targetProxy = 89AE61F2269CD8270040760E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		89AE61E4269CD8260040760E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89AE61E5269CD8260040760E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89AE61FC269CD8270040760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89AE61FD269CD8270040760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		89AE61FF269CD8270040760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane Extension/Tenhou_score_pane_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RKNVG2E43;
+				INFOPLIST_FILE = "Tenhou score pane Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89AE6200269CD8270040760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane Extension/Tenhou_score_pane_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3RKNVG2E43;
+				INFOPLIST_FILE = "Tenhou score pane Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane.Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		89AE6203269CD8270040760E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane/Tenhou_score_pane.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3RKNVG2E43;
+				INFOPLIST_FILE = "Tenhou score pane/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		89AE6204269CD8270040760E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane/Tenhou_score_pane.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3RKNVG2E43;
+				INFOPLIST_FILE = "Tenhou score pane/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.5.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89AE61D9269CD8260040760E /* Build configuration list for PBXProject "Tenhou score pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE61FC269CD8270040760E /* Debug */,
+				89AE61FD269CD8270040760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AE61FE269CD8270040760E /* Build configuration list for PBXNativeTarget "Tenhou score pane Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE61FF269CD8270040760E /* Debug */,
+				89AE6200269CD8270040760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89AE6202269CD8270040760E /* Build configuration list for PBXNativeTarget "Tenhou score pane" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89AE6203269CD8270040760E /* Debug */,
+				89AE6204269CD8270040760E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89AE61D6269CD8260040760E /* Project object */;
+}
