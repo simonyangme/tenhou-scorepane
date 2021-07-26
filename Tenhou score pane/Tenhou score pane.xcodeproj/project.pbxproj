@@ -14,7 +14,6 @@
 		89AE61F1269CD8270040760E /* Tenhou score pane Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 89AE61F0269CD8270040760E /* Tenhou score pane Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		89AE61F6269CD8270040760E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89AE61F5269CD8270040760E /* Cocoa.framework */; };
 		89AE61F9269CD8270040760E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AE61F8269CD8270040760E /* SafariWebExtensionHandler.swift */; };
-		89AE6215269CD8280040760E /* Tenhou score pane in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6206269CD8280040760E /* Tenhou score pane */; };
 		89AE6216269CD8280040760E /* Annotation 2020-09-07 190859.png in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6207269CD8280040760E /* Annotation 2020-09-07 190859.png */; };
 		89AE6217269CD8280040760E /* content.css in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6208269CD8280040760E /* content.css */; };
 		89AE6218269CD8280040760E /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 89AE6209269CD8280040760E /* LICENSE */; };
@@ -281,7 +280,6 @@
 				89AE621A269CD8280040760E /* Annotation 2020-09-07 120320.png in Resources */,
 				89AE6221269CD8280040760E /* chr4.png in Resources */,
 				89AE6222269CD8280040760E /* content.js in Resources */,
-				89AE6215269CD8280040760E /* Tenhou score pane in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -456,6 +454,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -477,6 +476,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "me.simonyang.tenhou-score-pane.Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
