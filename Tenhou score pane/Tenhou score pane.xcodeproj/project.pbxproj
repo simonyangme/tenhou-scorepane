@@ -446,7 +446,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane Extension/Tenhou_score_pane_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 3RKNVG2E43;
 				INFOPLIST_FILE = "Tenhou score pane Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -469,7 +469,7 @@
 				CODE_SIGN_ENTITLEMENTS = "Tenhou score pane Extension/Tenhou_score_pane_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 3RKNVG2E43;
 				INFOPLIST_FILE = "Tenhou score pane Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -496,7 +496,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 3RKNVG2E43;
 				INFOPLIST_FILE = "Tenhou score pane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -521,7 +521,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 3;
+				CURRENT_PROJECT_VERSION = 4;
 				DEVELOPMENT_TEAM = 3RKNVG2E43;
 				INFOPLIST_FILE = "Tenhou score pane/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (

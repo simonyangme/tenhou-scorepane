@@ -9,8 +9,8 @@ import Cocoa
 import SafariServices.SFSafariApplication
 import SafariServices.SFSafariExtensionManager
 
-let appName = "Tenhou score pane"
-let extensionBundleIdentifier = "com.yourCompany.Tenhou-score-pane.Extension"
+let appName = "Tenhou Score Pane"
+let extensionBundleIdentifier = "me.simonyang.tenhou-score-pane.Extension"
 
 class ViewController: NSViewController {
 
